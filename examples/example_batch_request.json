@@ -1,0 +1,40 @@
+{
+  "user_features": {
+    "user_id": 12345,
+    "notif_count_24h": 2,
+    "notif_count_7d": 10,
+    "notif_count_30d": 35,
+    "click_count_7d": 3,
+    "click_count_30d": 12,
+    "open_rate_7d": 0.15,
+    "open_rate_30d": 0.14
+  },
+  "candidates": [
+    {
+      "template_id": "promo_weekend_special",
+      "channel": "push",
+      "notification_type": "promo",
+      "text": "🎉 Weekend Special: 20% off your favorite items!",
+      "hour_of_day": 14,
+      "day_of_week": 5
+    },
+    {
+      "template_id": "product_tip_new_feature",
+      "channel": "email",
+      "notification_type": "product_tip",
+      "text": "Check out our new feature that helps you save time!",
+      "hour_of_day": 10,
+      "day_of_week": 2
+    },
+    {
+      "template_id": "important_account_update",
+      "channel": "in_app",
+      "notification_type": "important",
+      "text": "Important: Update your payment information",
+      "hour_of_day": 9,
+      "day_of_week": 1
+    }
+  ],
+  "use_llm_for_top_k": true,
+  "top_k": 2
+}

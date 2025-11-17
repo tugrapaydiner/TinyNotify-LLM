@@ -1,0 +1,25 @@
+{
+  "user_features": {
+    "user_id": 12345,
+    "notif_count_24h": 2,
+    "notif_count_7d": 10,
+    "notif_count_30d": 35,
+    "click_count_7d": 3,
+    "click_count_30d": 12,
+    "open_rate_7d": 0.15,
+    "open_rate_30d": 0.14,
+    "hours_since_last_notification": 6.5,
+    "hours_since_last_click": 12.0,
+    "most_active_hour_bucket": 14,
+    "complaint_count_30d": 0
+  },
+  "candidate": {
+    "template_id": "promo_weekend_special",
+    "channel": "push",
+    "notification_type": "promo",
+    "text": "🎉 Weekend Special: 20% off your favorite items!",
+    "hour_of_day": 14,
+    "day_of_week": 5
+  },
+  "use_llm": false
+}
